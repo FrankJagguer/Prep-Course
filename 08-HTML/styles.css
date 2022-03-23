@@ -1,0 +1,25 @@
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(104, 104, 104);
+    padding: 50px;
+    border: 1px solid black;
+ 
+}
+#spanId{
+  font-size: 18px; 
+  margin: 50px;
+  
+ 
+  
+}
+
+   
+
+body{
+    background-image: url(img/marmol.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
