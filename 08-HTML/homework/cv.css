@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DFE0E2;
+}
+.Nombre{
+    width: 100%;
+    height: 300px;
+    background: #A2AEBB;
+    transform: skewY(-5deg);
+
+}
+
+.Nombre .Contenido{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+.Nombre .Contenido .NombreCompleto{
+color: rgb(250, 251, 252);
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+font-size: 65px;
+transform: skewY(5deg);
+margin-bottom: 0;
+}
+.Nombre .Contenido .Edad-Educacion{
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    .informacion{
+        width: 90%;
+        height: auto;
+        background:#23B5D3 ;
+        margin:5% auto;
+        padding: 20px;
+        border-radius: 20px;
+        
+
+
+    }
+    .Nombre .Imagen{
+position: absolute;
+top: 20%;
+right: 5%;
+width: 180px;
+height: 180px;
+border-radius: 100%;
+transform: skewY(5deg);
+overflow: hidden;
+    }
+
+.Nombre .Imagen img{
+width: 190px;
+height: 240px;    
+}
+    .informacion .tituloCuadro{
+        color: aliceblue;
+        font-family: 'Open Sans', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 3px aliceblue solid;
+
+    }
+.informacion .tituloInfo{
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+display: inline;
+margin-right: 20px;
+}
+.informacion .informacionInfo{
+    color: rgb(236, 247, 244);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.informacion span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #2459D4;
+    color: rgb(187, 187, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
